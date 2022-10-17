@@ -1,0 +1,54 @@
+*{
+    font-family: poppins;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FBFBFB;
+}
+.back-img{
+    background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707), url("./Images/Background-Image.png") ;
+    /* this is new search for u rushikesh remember for future*/
+    height: 480px;
+    background-size: cover; 
+    background-position: center ;
+}
+.login, .create{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8 ;
+}
+.create:hover, .login:hover{
+    color: white
+}
+.create{
+
+    border: 1px solid white;
+}
+.logo{
+  
+    color: #eb2929;
+    background-color: white;
+    display: inline;
+    /* border-radius: 50%; */
+    font-size: 70px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.logo:hover{
+    color: red ;
+}
+.restaurant-title{
+    color: white;
+    font-size: 36px;
+    display: inline;/* this is new search for u rushikesh remember for future*/
+}
+.locationDropDown{
+    padding: 10px 30px 10px 20px;
+    opacity: 1 ;
+    appearance: none; /* this is new search for u rushikesh remember for future*/
+    color: #636F88;
+}
+.restaurant-input{
+
+    padding: 10px 90px 9px 30px;
+}
